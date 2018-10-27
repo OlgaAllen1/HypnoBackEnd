@@ -1,10 +1,10 @@
 type User {
   id: ID! @unique
-  username: String!
+  userName: String!
   email: String!
   password: String!
   gender: String!
-  birthdate: String!
+  birthDate: String!
   date: String!
   summary: String!
   question: Boolean!
